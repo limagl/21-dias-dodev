@@ -1,8 +1,8 @@
 let valor
 let quantidade
-let opcao = prompt ("Escolha entre essas opções: \n1 Abastecer com gasolina \n2 Abastecer com álcool \n3 Calibrar os pneus")
+let escolhas = prompt ("Escolha entre essas opções: \p1 Abastecer com gasolina \p2 Abastecer com álcool \p3 Calibrar os pneus")
 
-switch (opcao) {
+switch (escolhas) {
   case "1": 
     valor = parseInt (prompt("Digite o valor que voce quer colocar"))
     quantidade = valor / 5

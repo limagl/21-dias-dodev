@@ -22,7 +22,7 @@ if (idade < 18 || !temCarta) {
 else if 
     (idade >= 18 && temCarta && !temCarro) {
     console.log ("Voce tem carta, mas nao tem carro.")
-}
+}                                                                                              
 else {
     console.log (nome + " , voce sera seu motorista")
 }

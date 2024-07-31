@@ -1,5 +1,5 @@
-let numero = parseInt (prompt("Digite um numero positivo e inteiro"))
 
-for (let i = 0; i <=50; i += 5) {
-    console.log (i)
+
+for (let contador = 0; contador <=50; contador+=5) {
+    console.log (contador)
 }
